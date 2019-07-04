@@ -10,6 +10,6 @@ export class ListItemsService {
   }
 
   addToList(item: string): void {
-    this.currentList.push(item);
+    this.currentList.unshift(item);
   }
 }

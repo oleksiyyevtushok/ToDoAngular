@@ -6,6 +6,10 @@
   margin-bottom: 5px;
 }
 
+.listItem span {
+  word-break: break-all;
+}
+
 .listItem:hover {
   cursor: pointer;
   background: whitesmoke;
