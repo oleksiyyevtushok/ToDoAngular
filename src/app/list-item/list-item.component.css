@@ -1,0 +1,19 @@
+.listItem {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  background: whitesmoke;
+}
+
+.disabled {
+  text-decoration: line-through;
+  pointer-events: none;
+  opacity: 0.5;
+  background: white
+}

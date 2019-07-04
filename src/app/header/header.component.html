@@ -2,9 +2,10 @@
   <p>ToDo List</p>
   <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Enter your goal" aria-label="Enter your goal"
-      aria-describedby="basic-addon2">
+      value='{{inputValue}}' [(ngModel)]='inputValue' aria-describedby="basic-addon2">
+
     <div class="input-group-append">
-      <button class="btn btn-outline-secondary" type="button">Add</button>
+      <button class="btn btn-outline-secondary" type="button" (click)='btnClick()'>Add</button>
     </div>
   </div>
 </div>
